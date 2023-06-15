@@ -52,17 +52,17 @@
 
 // Задание 7
 
-// let firstNumber = prompt("Введите первое число");
+let firstNumber = +prompt("Введите первое число");
 
-// let secondNumber = prompt("Введите второе число");
+let secondNumber = +prompt("Введите второе число");
 
-// if (firstNumber > secondNumber) {
-//   console.log("Большее число -", firstNumber);
-// } else if (firstNumber < secondNumber) {
-//   console.log("Большее число -", secondNumber);
-// } else {
-//   console.log("Числа одинаковы");
-// }
+if (firstNumber > secondNumber) {
+  console.log("Большее число -", firstNumber);
+} else if (firstNumber < secondNumber) {
+  console.log("Большее число -", secondNumber);
+} else {
+  console.log("Числа одинаковы");
+}
 
 // Задание 8
 
@@ -110,16 +110,16 @@
 
 // Задание 11
 
-let rentDays = prompt("Количество дней аренды");
+// let rentDays = prompt("Количество дней аренды");
 
-let discount;
+// let discount;
 
-if (rentDays >= 7) {
-  discount = 50;
-} else if (rentDays >= 3) {
-  discount = 20;
-} else {
-  discount = 0;
-}
+// if (rentDays >= 7) {
+//   discount = 50;
+// } else if (rentDays >= 3) {
+//   discount = 20;
+// } else {
+//   discount = 0;
+// }
 
-console.log("Итоговая стоимость аренды - ", rentDays * 40 - discount);
+// console.log("Итоговая стоимость аренды - ", rentDays * 40 - discount);
